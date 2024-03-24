@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "CVF Abstract Viewer",
+  "version": "1.0",
+  "description": "View CVF paper abstracts without leaving the page.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://openaccess.thecvf.com/*"
+      ],
+      "exclude_matches": [
+        "https://openaccess.thecvf.com/content/*"
+      ],
+      "js": [
+        "content.js",
+        "jquery.min.js"
+      ]
+    }
+  ]
+}
