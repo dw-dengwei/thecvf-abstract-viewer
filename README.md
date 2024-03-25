@@ -7,7 +7,8 @@ This is a Chrome/Edge extension for abstract viewing of the paper list on the op
 3. Wait until the `abstract` link is added.
 4. Click the `abstract` link to view the abstract text.
 5. Click again to hide.
-<img width="1198" alt="image" src="https://github.com/dw-dengwei/thecvf-abstract-viewer/assets/21261323/0742d521-da6e-4f03-bc2d-38fc75497e69">
+![image](https://github.com/dw-dengwei/thecvf-abstract-viewer/assets/21261323/7c46b8cd-4994-4c45-9302-4aedf216ba56)
+
 
 # Notes
 1. This is an initial version, without considering performance or appearance.
